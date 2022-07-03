@@ -1,68 +1,50 @@
-#heading{
-    color:black;
-    background-color: white;
-    box-shadow:0px 0px 12px rgb(206, 203, 203);
-    width:50%;
-    text-align: center;
-    margin-top:20px;
-    border-radius: 5px;
-    border:0.1px solid white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculater</title>
+</head>
+<body>
 
-#box{
-    margin-top: 4%;
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 0px 0px 12px  rgb(206, 203, 203);
-    width: 50%;
-    padding: 12px;
-    border-radius: 5px;
-}
+    <h1 id="heading">Acedemic Celendar</h1>
 
-#h1{
-     color: rgb(0, 176, 50);
-     font-family: bold;
-}
 
-#select{
-    background-color: rgb(1, 198, 57);
-    color: white;
-    border-radius: 3px;
-}
+    <div id='box'>
+       <p id="h1">There is Acedemic Calender, To see Vications and fastival's.</p> 
+        <p id="select">Select a Date to see, what is in Calender.</p> 
+    </div>
 
-#calender{
-    margin-top: 16px;
-    box-shadow: 0px 0px 12px  rgb(194, 194, 194);
-    width: 50%;
-}
-#date
-{
-    width: 40%;
-    box-shadow: 1px 1px 19px  rgb(180, 186, 182);
-    border: 0.4px solid rgb(62, 59, 59);
-    font-family: cursive;
-    height: 48px;
-    text-align: center;
-    border-radius: 15px;
-}
-#date:hover
-{
-    width: 50%;
-    box-shadow: 1px 1px 19px  rgb(200, 184, 184);
-    border: 0.4px solid rgb(71, 6, 6);
-    border-radius: 5px;
-    font-family: cursive;
-    height: 48px;
-    text-align: center;  
-    background-color: rgb(1, 198, 57);
-}
+    <div id="calender">
+             <form>
+                 <p id="select">See calender by click this </p>
+                <input type="date" id="date" placeholder="Date" onmouseenter="change();" >
+             </form>
+    </div>
+    <div id="calender">
+        <form>
+            <lable id="h2">Enter Year</lable>
+            <input type="number" id="n1">
+        </form>
+</div>
 
-#h2
-{
-    font-size: 14px;
-    padding: 10px;
-    color: rgb(0, 176, 50);
-    font-family: bold;
-}
+<div id="calender">
+    <form>
+        <lable id="h2">Enter Month</lable>
+        <input type="number" id="n2">
+    </form>
+</div>
 
+<div id="calender">
+    <form>
+        <button  id="date"  onclick="show();">Submit</button>
+    </form>
+</div>
+
+<!-- <br>
+<input type="text" id="h3"> -->
+
+    <script src="main.js"></script></body>
+</html>
