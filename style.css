@@ -21,12 +21,12 @@
 }
 
 #h1{
-     color: rgb(0, 176, 50);
+     color: rgb(47, 51, 48);
      font-family: bold;
 }
 
 #select{
-    background-color: rgb(1, 198, 57);
+    background-color: rgb(40, 44, 41);
     color: white;
     border-radius: 3px;
 }
@@ -55,14 +55,14 @@
     font-family: cursive;
     height: 48px;
     text-align: center;  
-    background-color: rgb(1, 198, 57);
+    background-color: rgb(74, 59, 59);
 }
 
 #h2
 {
     font-size: 14px;
     padding: 10px;
-    color: rgb(0, 176, 50);
+    color: rgb(48, 45, 44);
     font-family: bold;
-} 
+}
 
